@@ -1,0 +1,29 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;400&display=swap');
+
+// Variables
+// @import 'variables';
+
+// Bootstrap
+// @import 'bootstrap/scss/bootstrap';
+
+@import 'mdb-ui-kit/css/mdb.min.css';
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
+// Components
+.title {
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.card-img {
+  aspect-ratio: 1/1.6;
+  width: 11.7rem;
+  object-fit: cover;
+}
+
+.img-detail {
+  aspect-ratio: 1/1.6;
+  width: 26rem;
+  object-fit: cover;
+}
